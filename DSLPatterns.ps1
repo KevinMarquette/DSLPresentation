@@ -105,7 +105,7 @@ function ServerDetails
     & $newScriptBlock
 }
 
-# Hashtable collector
+# Object collector
 
 StateMachine {
 
@@ -147,7 +147,7 @@ $scriptBlock.CheckRestrictedLanguage($commands, $variables, $allowEnvVariables)
  
 
 # Private/Internal functions
-function Get-StateMachine
+function StateMachine
 {
     [cmdletbinding()]
     param(
@@ -172,7 +172,7 @@ function Get-StateMachine
 
 # DynamicKeyword
 # https://gist.github.com/altrive/5864208
-ServerDetails
+ServerDetails 
 {
     Name = 'test'
     IP = '10.0.0.1'

@@ -10,7 +10,7 @@ Describe "Unit Test" {
 Get-Help Describe
 <#
 SYNTAX
-    Describe [-Name] <String> [-Tag <String[]>] [[-Fixture] <ScriptBlock>]
+    Describe [-Name] <String> [[-Fixture] <ScriptBlock>] [-Tag <String[]>]
     [<CommonParameters>]
 #>
 
