@@ -45,7 +45,7 @@ task Clean {
 # PSGraph
 Import-Module PSGraph
 Graph {
-    Node start,middle,end @{shape='box'}
+    Node start, middle, end @{shape='box'}
     Edge -From start -To middle
     Edge -From middle -To end
 } | Show-PSGraph
@@ -55,7 +55,7 @@ Graph {
 Import-Module PlasterManifestDSL
 PlasterManifest {
     Metadata {
-        Title = "DC Custom Function Template"
+        Title        = "DC Custom Function Template"
         TemplateName = 'CustomFunction'
     }
     Parameters {

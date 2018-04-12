@@ -139,8 +139,8 @@ RDCMan {
         RDCServer Server2
     }
 } | Set-Content -Path "$env:temp\demo1.rdg"
-code "$env:temp\demo1.rdg"
 & "$env:temp\demo1.rdg"
+# code "$env:temp\demo1.rdg"
 
 RDCMan {
     RDCGroup Production {
